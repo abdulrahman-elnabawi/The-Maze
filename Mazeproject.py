@@ -5,7 +5,7 @@ from timeit import default_timer as timer
 from queue import PriorityQueue
  
 WIDTH = 800
-HEIGHT = 800
+HEIGHT = 700
 win = pygame.display.set_mode((WIDTH, HEIGHT))
 clock = pygame.time.Clock()
 pygame.display.set_caption("Maze Solver ( Using  Algorithm )")
